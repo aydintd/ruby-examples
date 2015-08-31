@@ -1,4 +1,4 @@
-require '/home/aydintd/workspace/ruby/movie-list/db/db_configuration'
+require '/home/aydintd/workspace/ruby-examples/movie-list/db/db_configuration'
 
 ActiveRecord::Schema.define do
   unless ActiveRecord::Base.connection.tables.include? 'movies'

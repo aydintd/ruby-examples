@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require '/home/aydintd/workspace/ruby/movie-list/db/schema'
+require '/home/aydintd/workspace/ruby-examples/movie-list/db/schema'
 
 def main
   puts "What do you want to with your Movie list? (add/display/delete/update)"
