@@ -1,0 +1,4 @@
+*/.ruby-version
+movie-list/movielistdb
+movie-list/log/*
+movie-list/*.lock
