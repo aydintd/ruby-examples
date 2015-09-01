@@ -30,7 +30,7 @@ module Film
     end
   end
 
-  def Film.update(title)
+  def Film.update(title, rating)
     unless movie = Movie.find_by(title: title)
       puts "Movie does not exist"
     else

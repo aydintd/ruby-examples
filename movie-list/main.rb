@@ -23,7 +23,7 @@ def main
     title = gets.chomp
     puts "Give the new value of your rating:"
     rating = gets.chomp
-    puts Film.update(title)
+    puts Film.update(title, rating)
   when "display"
     movie_header = "Movies"
     movie_rating_header = "Rating"
