@@ -4,7 +4,7 @@ require './db/schema'
 require './lib/film'
 
 def main
-  puts "What do you want to with your Movie list? (add/display/delete/update)"
+  puts "What do you want to do with your Movie List?\nOptions: (add/display/delete/update)"
   choice = gets.chomp
 
   case choice
