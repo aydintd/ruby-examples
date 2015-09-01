@@ -10,6 +10,6 @@ ActiveRecord::Schema.define do
 end
 
 class Movie < ActiveRecord::Base
-  validates :title, uniqueness: { message: "Movie already exists." }
-  validates :rating, inclusion: {in: (1..10).to_a,  message: "Please rate your movie between 1-10" }
+  validates :title, presence: true, uniqueness: { message: "Movie already exists." }
+  validates :rating, presence: true, inclusion: {in: (1..10).to_a,  message: "Please rate your movie between 1-10" }
 end

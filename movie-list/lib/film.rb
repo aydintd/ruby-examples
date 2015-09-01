@@ -45,6 +45,11 @@ module Film
   end
 
   def Film.help
-    puts "To manipulate your movie list please use add/delete/update/display"
+    puts "add: Add a movie to your movie list with a rating between 1-10 
+update: Type down an existing movie title and update its rating in your movie list.
+delete: Type down an existing movie title and delete that entry from your movie list.
+display: See your Movie List with the ratings.
+quit: Exit Movie List (Quit,quit,q,Q options should work!)
+help: See this guide."
   end
 end
