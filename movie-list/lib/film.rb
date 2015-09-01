@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 module Film
   def Film.add(title, rating)
     movie = Movie.create(title: title, rating: rating)
