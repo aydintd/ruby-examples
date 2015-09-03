@@ -45,6 +45,6 @@ update: Type down an existing movie title and update its rating in your movie li
 delete: Type down an existing movie title and delete that entry from your movie list.
 display: See your Movie List with the ratings.
 quit: Exit Movie List (Quit,quit,q,Q options should work!)
-help: See this guide.\n".colorize(:color => :green)
+help: See this guide.\n".colorize(color: :green)
   end
 end
